@@ -1,0 +1,130 @@
+.lobby-button {
+  width: 50%;
+  height: 10%;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+.decoder-button {
+  width: 50%;
+  height: 10%;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  height: 700px;
+  width: 40%;
+  margin-left: 30%;
+  background-color: white;
+  position: relative;
+}
+
+.user-register-div {
+  height: 15%;
+}
+
+.chat-room {
+  min-height: 437px;
+  min-width: 300px;
+  height: 80%;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.message-box {
+  height: 80%;
+  width: 100%;
+  background-color: green;
+}
+
+.message-box > div > p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.message-box > div > .username-board {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.msg-input-div {
+  background-color: grey;
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid black;
+}
+
+.msg-input-form {
+  height: 100%;
+}
+
+#msg-input {
+  height: 100%;
+  width: 80%;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.msg-input-send {
+  height: 100%;
+  font-size: 20px;
+}
+
+.regIdx {
+  width: 20px;
+}
+
+#newnickname {
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+
+.user-register-div > form > label {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.user-register-div > form {
+  margin-top: 10px;
+}
+
+#decoder-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#decoder-form > button {
+  width: 60px;
+  height: 30px;
+}
+
+#tbdced {
+  height: 100px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
